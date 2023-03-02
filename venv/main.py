@@ -30,8 +30,17 @@
 # print(result)
 # # 1.6^
 
-user_input = input("Enter a boolean (True or False): ")
-boolean_value = bool(user_input)
-print("Boolean value:", boolean_value)
-print("Opposite value:", not boolean_value)
+# v
+
+# user_input = input("Enter a boolean (True or False): ")
+# boolean_value = bool(user_input)
+# print("Boolean value:", boolean_value)
+# print("Opposite value:", not boolean_value)
+
+val = input("Enter a boolean value True or False: ")
+print(val)
+if val==True:
+    print(False)
+else:
+    print(True)
 # # 1.7^
